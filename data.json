@@ -1,7 +1,7 @@
 {
   "site": {
     "title": "Ryan Kuo | Aspiring Full-Stack Developer",
-    "description": "Portfolio of Ryan Kuo, a 10th grader at Round Rock High School in Austin, Texas, and an aspiring front end and back end developer.",
+    "description": "Hello! I'm Ryan Kuo, a 10th grader at Round Rock High School in Austin, Texas, and an aspiring front end and back end developer.",
     "brand": "RK"
   },
   "nav": [
@@ -106,7 +106,7 @@
     "heading": "Passion Projects & Extracurriculars",
     "eyebrow": "What I do",
     "intro": "I'm just getting started, and I'm planning to build many more projects as I keep learning.",
-    "csHeading": "Computing & Robotics",
+    "csHeading": "Computing & Software",
     "cs": [
       {
         "icon": "instagram",
@@ -114,7 +114,7 @@
         "subtitle": "@rkthecoder1",
         "badge": "~500 followers",
         "image": "",
-        "description": "I run an Instagram account that teaches Java concepts to a growing community of learners.",
+        "description": "I run an Instagram account that creates software development related content to a growing community of learners. I mostly teach important Java concepts, but may throw in a meme or two to keep things alive. In the future, I am planning to create my own free Java and Python course, turn it into a website, and share it with others to help other aspiring software developers out.",
         "highlights": [],
         "linkLabel": "Visit the account",
         "linkUrl": "https://www.instagram.com/rkthecoder1/"
@@ -123,9 +123,9 @@
         "icon": "bot",
         "title": "Multiversal Robotics",
         "subtitle": "FTC Team 32610 · Round Rock High School",
-        "badge": "Team member",
+        "badge": "Software co-lead",
         "image": "images/robotics.png",
-        "description": "I'm a member of Round Rock High School's FIRST Tech Challenge robotics team, Multiversal.",
+        "description": "I'm a member of Round Rock High School's FIRST Tech Challenge robotics team, Multiversal. We are currently participating in the 2026-2027 FTC BIOBUZZ challenge, and I have contributed lots towards the robots code already. I am always looking forward to the next meeting and am always excited to help my team. ",
         "highlights": [],
         "linkLabel": "Team website",
         "linkUrl": "https://multiversalrobotics.com/"
@@ -134,9 +134,9 @@
         "icon": "terminal",
         "title": "USACO",
         "subtitle": "USA Computing Olympiad",
-        "badge": "Bronze division",
+        "badge": "",
         "image": "images/usaco-logo.png",
-        "description": "I just started competing and I'm improving fast. Silver is my next target.",
+        "description": "This year, I have decided to tackle USACO, an incredibly prestigious and difficult competition. Although I sometimes may struggle, I am rapidly improving. I hope to achieve silver, or maybe even gold, this year.",
         "highlights": [],
         "linkLabel": "",
         "linkUrl": ""
@@ -147,7 +147,7 @@
         "subtitle": "Round Rock High School",
         "badge": "Member",
         "image": "",
-        "description": "I'm an active member of the CSUIL club.",
+        "description": "I am an active member at my schools CSUIL club. Although I struggled last year, I have drastically improved my Java programming skills over the summer, and am hoping to become a CSUIL officer next year.",
         "highlights": [],
         "linkLabel": "",
         "linkUrl": ""
@@ -159,13 +159,14 @@
         "icon": "music",
         "title": "Piano",
         "subtitle": "Texas Music Teachers Association (TMTA)",
-        "badge": "3rd Place · 2026",
+        "badge": "Frequent podium finisher",
         "image": "images/piano.webp",
-        "description": "I compete in the TMTA annual state piano competition.",
+        "description": "I have been playing piano for over 10 years. I have competed in lots and lots of competitions over these 10 years, most notably the ADMTA solo contest, Blinn college competition, the Scholarship Contest, and most importantly, TMTA state competition, or Texas Music Teachers Association State Competition. TMTA is the most prestigious and competitive out of all of these competitions. I have won first or second in most of these competitions, and have received 2 honorable mentions and 1 third place at the TMTA final state competition.",
         "highlights": [
-          "3rd Place, TMTA 9th Grade State Competition (2026)",
-          "Honorable Mention, TMTA 8th Grade State Competition (2025)",
-          "Honorable Mention, TMTA 7th Grade State Competition (2024)"
+          "TMTA State competition, Honorable Mention (2024, 2025), 3rd place (2026) ",
+          "Blinn college competition, Honorable Mention (2024), Second place (2023)",
+          "ADMTA Solo Contest, 1st place (2022, 2023, 2025)",
+          "ADMTA Scholarship Contest, 1st place (2025, 2026)"
         ],
         "linkLabel": "",
         "linkUrl": ""
@@ -176,7 +177,7 @@
         "subtitle": "",
         "badge": "Member",
         "image": "images/fasca.png",
-        "description": "I'm a hardworking member of FASCA Austin. I am currently a Group Leader for my Pu Tai IEEP Online English Teaching group, a TA for a first grade Chinese class, and also teach Taiwanese culture to students.",
+        "description": "I'm a hardworking member of FASCA Austin. I am currently a Group Leader for my Pu Tai IEEP Online English Teaching group, a TA for a first grade Chinese class, and also teach Taiwanese culture to students. I'm hoping to create a website in the future to contribute to our organization/association.",
         "highlights": [],
         "linkLabel": "",
         "linkUrl": ""
@@ -197,8 +198,8 @@
       },
       {
         "icon": "flag",
-        "title": "Become a CSUIL Officer",
-        "description": "Run for an officer position in the CSUIL club.",
+        "title": "Become a CSUIL lead",
+        "description": "Run for an lead position in the CSUIL club.",
         "target": "By the end of sophomore year",
         "status": "In progress"
       },
@@ -215,13 +216,20 @@
         "description": "A website linked to my Java teaching Instagram account that offers tutorials and 1-on-1 tutoring for Java and Python programming.",
         "target": "Future project",
         "status": "Future project"
+      },
+      {
+        "icon": "code",
+        "title": "Launch a website for FASCA",
+        "description": "I hope to launch a website sometime soon for FASCA to contribute to our cause and make a change.",
+        "target": "Future project",
+        "status": "Future project"
       }
     ]
   },
   "contact": {
     "heading": "Contact Me",
     "eyebrow": "Say hello",
-    "text": "Have a question, an idea, or just want to talk code? I'd love to hear from you.",
+    "text": "Have a question, an idea, or just want to talk? I'd love to hear from you.",
     "buttonLabel": "Contact me",
     "email": "rckuo24@gmail.com",
     "subject": "Hello from your portfolio"
