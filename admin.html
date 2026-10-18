@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0a0b10">
+  <title>Portfolio Editor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/admin.css">
+  <script src="js/common.js"></script>
+</head>
+<body class="admin">
+  <main class="container admin-wrap">
+    <section id="gate" class="gate card" aria-labelledby="gate-title" hidden>
+      <h1 id="gate-title">Portfolio Editor</h1>
+      <p class="muted">Enter the passcode to edit the site. This is a convenience lock, not real security.</p>
+      <form id="gate-form" novalidate>
+        <label for="passcode">Passcode</label>
+        <input id="passcode" type="password" autocomplete="current-password" required>
+        <p id="gate-error" class="field-error" role="alert" hidden></p>
+        <button class="btn btn-primary" type="submit">Unlock</button>
+      </form>
+      <a class="text-link" href="index.html">Back to site</a>
+    </section>
+
+    <section id="editor" hidden>
+      <header class="admin-head">
+        <div>
+          <h1>Portfolio Editor</h1>
+          <p class="muted">Edit the fields, press <strong>Save Changes</strong> to preview on this device, then <strong>Download data.json</strong> and replace the file in your project to publish.</p>
+        </div>
+        <a class="btn btn-ghost" href="index.html" target="_blank" rel="noopener">View site</a>
+      </header>
+      <div id="source-note" class="note"></div>
+      <div id="fields"></div>
+
+      <details class="section-card" id="pass-card">
+        <summary>Change passcode</summary>
+        <div class="section-inner">
+          <label class="fld"><span>New passcode (leave blank to keep the current one)</span>
+            <input id="new-pass" type="password" autocomplete="new-password"></label>
+          <p class="muted small">Only a hash is stored in data.json, but the lock still runs in the browser, so treat it as a deterrent.</p>
+        </div>
+      </details>
+
+      <div class="action-bar" role="group" aria-label="Editor actions">
+        <button id="save" class="btn btn-primary" type="button">Save Changes</button>
+        <button id="download" class="btn btn-ghost" type="button">Download Updated Config JSON</button>
+        <button id="reset" class="btn btn-ghost danger" type="button">Discard local edits</button>
+        <button id="lock" class="btn btn-ghost" type="button">Lock</button>
+        <p id="status" class="status" role="status" aria-live="polite"></p>
+      </div>
+    </section>
+
+    <p id="load-error" class="field-error" role="alert" hidden></p>
+  </main>
+  <script src="js/admin.js"></script>
+</body>
+</html>

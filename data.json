@@ -1,0 +1,235 @@
+{
+  "site": {
+    "title": "Ryan Kuo | Aspiring Full-Stack Developer",
+    "description": "Portfolio of Ryan Kuo, a 10th grader at Round Rock High School in Austin, Texas, and an aspiring front end and back end developer.",
+    "brand": "RK"
+  },
+  "nav": [
+    {
+      "label": "About",
+      "target": "#about"
+    },
+    {
+      "label": "Passions",
+      "target": "#passions"
+    },
+    {
+      "label": "Goals",
+      "target": "#goals"
+    },
+    {
+      "label": "Contact",
+      "target": "#contact"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Hi, I'm",
+    "name": "Ryan Kuo",
+    "tagline": "An aspiring versatile front end and back end developer.",
+    "avatar": "images/headshot.webp",
+    "facts": [
+      {
+        "icon": "map-pin",
+        "label": "Austin, Texas"
+      },
+      {
+        "icon": "graduation-cap",
+        "label": "10th Grade"
+      },
+      {
+        "icon": "school",
+        "label": "Round Rock High School"
+      },
+      {
+        "icon": "code",
+        "label": "Aspiring Full-Stack Developer"
+      }
+    ],
+    "primaryCta": {
+      "label": "Contact me",
+      "target": "#contact"
+    },
+    "secondaryCta": {
+      "label": "See my work",
+      "target": "#passions"
+    },
+    "social": [
+      {
+        "icon": "instagram",
+        "label": "Instagram",
+        "url": "https://www.instagram.com/rkthecoder1/"
+      },
+      {
+        "icon": "github",
+        "label": "GitHub",
+        "url": "https://github.com/RBluerock"
+      },
+      {
+        "icon": "globe",
+        "label": "Multiversal Robotics",
+        "url": "https://multiversalrobotics.com/"
+      }
+    ]
+  },
+  "about": {
+    "heading": "About Me",
+    "eyebrow": "Who I am",
+    "paragraphs": [
+      "Hello there! My name is Ryan Kuo, an aspiring computer science major hoping to make a change in this world. I'm a 10th grader at Round Rock High School and a versatile software developer with experience in frontend and backend.",
+      "Whether developing a sleek frontend or a robust backend, I focus on clean code, maintainability, and performance."
+    ],
+    "languagesHeading": "Languages I Know",
+    "languages": [
+      {
+        "name": "Java",
+        "level": "Very fluent"
+      },
+      {
+        "name": "Python",
+        "level": "Very fluent"
+      },
+      {
+        "name": "JavaScript",
+        "level": "Familiar"
+      },
+      {
+        "name": "HTML",
+        "level": "Familiar"
+      },
+      {
+        "name": "C++",
+        "level": "Familiar"
+      }
+    ]
+  },
+  "passions": {
+    "heading": "Passion Projects & Extracurriculars",
+    "eyebrow": "What I do",
+    "intro": "I'm just getting started, and I'm planning to build many more projects as I keep learning.",
+    "csHeading": "Computing & Robotics",
+    "cs": [
+      {
+        "icon": "instagram",
+        "title": "Java Teaching on Instagram",
+        "subtitle": "@rkthecoder1",
+        "badge": "~500 followers",
+        "image": "",
+        "description": "I run an Instagram account that teaches Java concepts to a growing community of learners.",
+        "highlights": [],
+        "linkLabel": "Visit the account",
+        "linkUrl": "https://www.instagram.com/rkthecoder1/"
+      },
+      {
+        "icon": "bot",
+        "title": "Multiversal Robotics",
+        "subtitle": "FTC Team 32610 · Round Rock High School",
+        "badge": "Team member",
+        "image": "images/robotics.png",
+        "description": "I'm a member of Round Rock High School's FIRST Tech Challenge robotics team, Multiversal.",
+        "highlights": [],
+        "linkLabel": "Team website",
+        "linkUrl": "https://multiversalrobotics.com/"
+      },
+      {
+        "icon": "terminal",
+        "title": "USACO",
+        "subtitle": "USA Computing Olympiad",
+        "badge": "Bronze division",
+        "image": "images/usaco-logo.png",
+        "description": "I just started competing and I'm improving fast. Silver is my next target.",
+        "highlights": [],
+        "linkLabel": "",
+        "linkUrl": ""
+      },
+      {
+        "icon": "users",
+        "title": "CSUIL Club",
+        "subtitle": "Round Rock High School",
+        "badge": "Member",
+        "image": "",
+        "description": "I'm an active member of the CSUIL club.",
+        "highlights": [],
+        "linkLabel": "",
+        "linkUrl": ""
+      }
+    ],
+    "otherHeading": "Beyond Code",
+    "other": [
+      {
+        "icon": "music",
+        "title": "Piano",
+        "subtitle": "Texas Music Teachers Association (TMTA)",
+        "badge": "3rd Place · 2026",
+        "image": "images/piano.webp",
+        "description": "I compete in the TMTA annual state piano competition.",
+        "highlights": [
+          "3rd Place, TMTA 9th Grade State Competition (2026)",
+          "Honorable Mention, TMTA 8th Grade State Competition (2025)",
+          "Honorable Mention, TMTA 7th Grade State Competition (2024)"
+        ],
+        "linkLabel": "",
+        "linkUrl": ""
+      },
+      {
+        "icon": "users",
+        "title": "FASCA Austin",
+        "subtitle": "",
+        "badge": "Member",
+        "image": "images/fasca.png",
+        "description": "I'm a hardworking member of FASCA Austin. I am currently a Group Leader for my Pu Tai IEEP Online English Teaching group, a TA for a first grade Chinese class, and also teach Taiwanese culture to students.",
+        "highlights": [],
+        "linkLabel": "",
+        "linkUrl": ""
+      }
+    ]
+  },
+  "goals": {
+    "heading": "Current Goals",
+    "eyebrow": "What's next",
+    "intro": "Things I'm working toward right now.",
+    "items": [
+      {
+        "icon": "trophy",
+        "title": "Reach USACO Silver",
+        "description": "Move up from Bronze by solving harder problems and practicing consistently.",
+        "target": "By the end of sophomore year",
+        "status": "In progress"
+      },
+      {
+        "icon": "flag",
+        "title": "Become a CSUIL Officer",
+        "description": "Run for an officer position in the CSUIL club.",
+        "target": "By the end of sophomore year",
+        "status": "In progress"
+      },
+      {
+        "icon": "award",
+        "title": "Run for FASCA President or Vice President",
+        "description": "Run for a leadership position in FASCA Austin.",
+        "target": "By the end of sophomore year",
+        "status": "In progress"
+      },
+      {
+        "icon": "graduation-cap",
+        "title": "Launch a Java & Python Tutoring Website",
+        "description": "A website linked to my Java teaching Instagram account that offers tutorials and 1-on-1 tutoring for Java and Python programming.",
+        "target": "Future project",
+        "status": "Future project"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "Contact Me",
+    "eyebrow": "Say hello",
+    "text": "Have a question, an idea, or just want to talk code? I'd love to hear from you.",
+    "buttonLabel": "Contact me",
+    "email": "rckuo24@gmail.com",
+    "subject": "Hello from your portfolio"
+  },
+  "footer": {
+    "text": "Ryan Kuo · Austin, Texas"
+  },
+  "admin": {
+    "passcodeHash": "3bdd44faaf85d90c10c02eab3d8aa71e02649bc9671003dc24cc5d0bd6df90ba"
+  }
+}

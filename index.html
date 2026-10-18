@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ryan Kuo | Portfolio</title>
+  <meta name="description" content="Portfolio of Ryan Kuo.">
+  <meta name="theme-color" content="#0a0b10">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/common.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div id="local-banner" class="local-banner" hidden></div>
+
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" id="brand" aria-label="Back to top"></a>
+      <nav aria-label="Primary"><ul class="nav-list" id="nav"></ul></nav>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch color theme"></button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-name">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-inner" id="hero"></div>
+    </section>
+    <section class="section" id="about" aria-labelledby="about-title"><div class="container" id="about-body"></div></section>
+    <section class="section alt" id="passions" aria-labelledby="passions-title"><div class="container" id="passions-body"></div></section>
+    <section class="section" id="goals" aria-labelledby="goals-title"><div class="container" id="goals-body"></div></section>
+    <section class="section alt" id="contact" aria-labelledby="contact-title"><div class="container" id="contact-body"></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container" id="footer"></div></footer>
+
+  <noscript><p class="container" style="padding:2rem 0">This portfolio needs JavaScript enabled to load its content.</p></noscript>
+  <script src="js/app.js"></script>
+</body>
+</html>
